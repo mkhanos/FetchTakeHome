@@ -10,6 +10,7 @@ import Foundation
 @MainActor
 final class RecipeViewModel: ObservableObject {
     @Published var recipes: [Recipe] = []
+    @Published var error: Error?
     
     private let recipesService: RecipeService
     
@@ -19,15 +20,14 @@ final class RecipeViewModel: ObservableObject {
     }
     
     func loadRecipes() async {
-        let url = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json")!
         do {
-            // TODO: - Abstract network later
-            let (data, _) = try await URLSession.shared.data(from: url)
-            let recipeResponse = try JSONDecoder().decode(RecipeResponse.self, from: data)
-            self.recipes = recipeResponse.recipes
+            if let recipes = try await recipesService.fetchRecipes() {
+                self.recipes = recipes
+            }
         } catch {
-            // TODO: - handle network failure
-            print("Failed")
+            self.error = error
+            print(error)
+            
         }
     }
 }
