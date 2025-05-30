@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FA74D8742DEA13C400055F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA74D85B2DEA13C300055F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA74D8622DEA13C300055F0A;
+			remoteInfo = FetchTakeHome;
+		};
+		FA74D87E2DEA13C400055F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA74D85B2DEA13C300055F0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA74D8622DEA13C300055F0A;
+			remoteInfo = FetchTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA74D8632DEA13C300055F0A /* FetchTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA74D8732DEA13C400055F0A /* FetchTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA74D87D2DEA13C400055F0A /* FetchTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FetchTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA74D8652DEA13C300055F0A /* FetchTakeHome */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FetchTakeHome;
+			sourceTree = "<group>";
+		};
+		FA74D8762DEA13C400055F0A /* FetchTakeHomeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FetchTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		FA74D8802DEA13C400055F0A /* FetchTakeHomeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FetchTakeHomeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA74D8602DEA13C300055F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D8702DEA13C400055F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D87A2DEA13C400055F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA74D85A2DEA13C300055F0A = {
+			isa = PBXGroup;
+			children = (
+				FA74D8652DEA13C300055F0A /* FetchTakeHome */,
+				FA74D8762DEA13C400055F0A /* FetchTakeHomeTests */,
+				FA74D8802DEA13C400055F0A /* FetchTakeHomeUITests */,
+				FA74D8642DEA13C300055F0A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA74D8642DEA13C300055F0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA74D8632DEA13C300055F0A /* FetchTakeHome.app */,
+				FA74D8732DEA13C400055F0A /* FetchTakeHomeTests.xctest */,
+				FA74D87D2DEA13C400055F0A /* FetchTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA74D8622DEA13C300055F0A /* FetchTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA74D8872DEA13C400055F0A /* Build configuration list for PBXNativeTarget "FetchTakeHome" */;
+			buildPhases = (
+				FA74D85F2DEA13C300055F0A /* Sources */,
+				FA74D8602DEA13C300055F0A /* Frameworks */,
+				FA74D8612DEA13C300055F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA74D8652DEA13C300055F0A /* FetchTakeHome */,
+			);
+			name = FetchTakeHome;
+			packageProductDependencies = (
+			);
+			productName = FetchTakeHome;
+			productReference = FA74D8632DEA13C300055F0A /* FetchTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA74D8722DEA13C400055F0A /* FetchTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA74D88A2DEA13C400055F0A /* Build configuration list for PBXNativeTarget "FetchTakeHomeTests" */;
+			buildPhases = (
+				FA74D86F2DEA13C400055F0A /* Sources */,
+				FA74D8702DEA13C400055F0A /* Frameworks */,
+				FA74D8712DEA13C400055F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA74D8752DEA13C400055F0A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA74D8762DEA13C400055F0A /* FetchTakeHomeTests */,
+			);
+			name = FetchTakeHomeTests;
+			packageProductDependencies = (
+			);
+			productName = FetchTakeHomeTests;
+			productReference = FA74D8732DEA13C400055F0A /* FetchTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA74D87C2DEA13C400055F0A /* FetchTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA74D88D2DEA13C400055F0A /* Build configuration list for PBXNativeTarget "FetchTakeHomeUITests" */;
+			buildPhases = (
+				FA74D8792DEA13C400055F0A /* Sources */,
+				FA74D87A2DEA13C400055F0A /* Frameworks */,
+				FA74D87B2DEA13C400055F0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA74D87F2DEA13C400055F0A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA74D8802DEA13C400055F0A /* FetchTakeHomeUITests */,
+			);
+			name = FetchTakeHomeUITests;
+			packageProductDependencies = (
+			);
+			productName = FetchTakeHomeUITests;
+			productReference = FA74D87D2DEA13C400055F0A /* FetchTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA74D85B2DEA13C300055F0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FA74D8622DEA13C300055F0A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FA74D8722DEA13C400055F0A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FA74D8622DEA13C300055F0A;
+					};
+					FA74D87C2DEA13C400055F0A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FA74D8622DEA13C300055F0A;
+					};
+				};
+			};
+			buildConfigurationList = FA74D85E2DEA13C300055F0A /* Build configuration list for PBXProject "FetchTakeHome" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA74D85A2DEA13C300055F0A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA74D8642DEA13C300055F0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA74D8622DEA13C300055F0A /* FetchTakeHome */,
+				FA74D8722DEA13C400055F0A /* FetchTakeHomeTests */,
+				FA74D87C2DEA13C400055F0A /* FetchTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA74D8612DEA13C300055F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D8712DEA13C400055F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D87B2DEA13C400055F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA74D85F2DEA13C300055F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D86F2DEA13C400055F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA74D8792DEA13C400055F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA74D8752DEA13C400055F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA74D8622DEA13C300055F0A /* FetchTakeHome */;
+			targetProxy = FA74D8742DEA13C400055F0A /* PBXContainerItemProxy */;
+		};
+		FA74D87F2DEA13C400055F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA74D8622DEA13C300055F0A /* FetchTakeHome */;
+			targetProxy = FA74D87E2DEA13C400055F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA74D8852DEA13C400055F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA74D8862DEA13C400055F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA74D8882DEA13C400055F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchTakeHome/Preview Content\"";
+				DEVELOPMENT_TEAM = 9RF5L7L699;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.FetchTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA74D8892DEA13C400055F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FetchTakeHome/Preview Content\"";
+				DEVELOPMENT_TEAM = 9RF5L7L699;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.FetchTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA74D88B2DEA13C400055F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RF5L7L699;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.FetchTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchTakeHome";
+			};
+			name = Debug;
+		};
+		FA74D88C2DEA13C400055F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RF5L7L699;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.FetchTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FetchTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FetchTakeHome";
+			};
+			name = Release;
+		};
+		FA74D88E2DEA13C400055F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RF5L7L699;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.FetchTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchTakeHome;
+			};
+			name = Debug;
+		};
+		FA74D88F2DEA13C400055F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RF5L7L699;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.momo.FetchTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FetchTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA74D85E2DEA13C300055F0A /* Build configuration list for PBXProject "FetchTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74D8852DEA13C400055F0A /* Debug */,
+				FA74D8862DEA13C400055F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA74D8872DEA13C400055F0A /* Build configuration list for PBXNativeTarget "FetchTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74D8882DEA13C400055F0A /* Debug */,
+				FA74D8892DEA13C400055F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA74D88A2DEA13C400055F0A /* Build configuration list for PBXNativeTarget "FetchTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74D88B2DEA13C400055F0A /* Debug */,
+				FA74D88C2DEA13C400055F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA74D88D2DEA13C400055F0A /* Build configuration list for PBXNativeTarget "FetchTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74D88E2DEA13C400055F0A /* Debug */,
+				FA74D88F2DEA13C400055F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA74D85B2DEA13C300055F0A /* Project object */;
+}
