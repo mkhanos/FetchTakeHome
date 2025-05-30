@@ -15,14 +15,25 @@ struct ContentView: View {
     }
     
     var body: some View {
-        ScrollView() {
-            VStack(alignment: .leading) {
-                ForEach(viewModel.recipes, id: \.uuid) { recipe in
-                    RecipeRow(recipe: recipe)
+        Group {
+            if viewModel.recipes.isEmpty {
+                VStack {
+                    Spacer()
+                    Text("No recipes available!")
+                    Spacer()
+                }
+            } else {
+                ScrollView() {
+                    VStack(alignment: .leading) {
+                        ForEach(viewModel.recipes, id: \.uuid) { recipe in
+                            RecipeRow(recipe: recipe)
+                        }
+                    }
+                    .padding(.horizontal)
                 }
             }
-            .padding(.horizontal)
         }
+
         .refreshable {
             await viewModel.loadRecipes()
         }
