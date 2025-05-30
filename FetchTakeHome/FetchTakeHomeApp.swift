@@ -9,10 +9,18 @@ import SwiftUI
 
 @main
 struct FetchTakeHomeApp: App {
-    let recipesService = RecipeService()
+    let networkClient: NetworkClient = NetworkClient()
+    let recipesService: RecipeService
+    let recipeViewModel: RecipeViewModel
+    
+    init() {
+        recipesService = RecipeService(networkClient: networkClient)
+        recipeViewModel = RecipeViewModel(recipesService: recipesService)
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(viewModel: RecipeViewModel(recipesService: RecipeService()))
+            ContentView(viewModel: recipeViewModel)
         }
     }
 }
