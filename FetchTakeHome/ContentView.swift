@@ -21,6 +21,8 @@ struct ContentView: View {
                             Text(recipe.cuisine)
                                 .font(.subheadline)
                         }
+                        Spacer()
+                        CachedImageView(url: URL(string: recipe.photo_url_small)!, uuid: recipe.uuid)
                     }
                 }
             }
