@@ -1,5 +1,5 @@
 //
-//  RecipeViewModel.swift
+//  RecipeService.swift
 //  FetchTakeHome
 //
 //  Created by Momo Khan on 5/30/25.
@@ -7,27 +7,18 @@
 
 import Foundation
 
-@MainActor
-final class RecipeViewModel: ObservableObject {
-    @Published var recipes: [Recipe] = []
-    
-    private let recipesService: RecipeService
-    
-    init(recipesService: RecipeService) {
-        
-        self.recipesService = recipesService
-    }
-    
-    func loadRecipes() async {
+final class RecipeService {
+    func fetchRecipes() async -> [Recipe]? {
         let url = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json")!
         do {
             // TODO: - Abstract network later
             let (data, _) = try await URLSession.shared.data(from: url)
             let recipeResponse = try JSONDecoder().decode(RecipeResponse.self, from: data)
-            self.recipes = recipeResponse.recipes
+            return recipeResponse.recipes
         } catch {
             // TODO: - handle network failure
             print("Failed")
+            return []
         }
     }
 }
