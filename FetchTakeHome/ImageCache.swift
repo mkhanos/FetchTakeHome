@@ -35,6 +35,7 @@ actor ImageCache {
     func load(uuid: String) -> UIImage? {
         do {
             let data = try Data(contentsOf: cachePath(uuid: uuid))
+            print("Successfully loaded file: \(uuid)")
             return UIImage(data: data)
         } catch {
             print("Failed to load from disk \(error)")
@@ -49,6 +50,7 @@ actor ImageCache {
         }
         do {
             try data.write(to: cachePath(uuid: uuid))
+            print("Successfully saved filed \(uuid)")
         } catch {
             print("Failed to write to disk \(error)")
         }
