@@ -14,7 +14,7 @@ struct ContentView: View {
         ScrollView() {
             VStack(alignment: .leading) {
                 ForEach(viewModel.recipes, id: \.uuid) { recipe in
-                    HStack {
+                    HStack(alignment: .top) {
                         VStack(alignment: .leading) {
                             Text(recipe.name)
                                 .font(.headline)
@@ -23,9 +23,12 @@ struct ContentView: View {
                         }
                         Spacer()
                         CachedImageView(url: URL(string: recipe.photo_url_small)!, uuid: recipe.uuid)
+                            .frame(width: 100, height: 100)
                     }
+                    .aspectRatio(16.0 / 9.0 , contentMode: .fit)
                 }
             }
+            .padding(.horizontal)
         }
         .refreshable {
             await viewModel.loadData()
