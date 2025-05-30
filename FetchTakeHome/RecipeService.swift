@@ -7,18 +7,27 @@
 
 import Foundation
 
+protocol RecipeServiceProtocol {
+    func fetchRecipes() async throws -> [Recipe]?
+    
+    func fetchEmpty() async throws -> [Recipe]?
+    
+    func fetchMalformed() async throws -> [Recipe]?
+}
+
 final class RecipeService {
-    func fetchRecipes() async -> [Recipe]? {
-        let url = URL(string: "https://d3jbb8n5wk0qxi.cloudfront.net/recipes.json")!
+    private var networkClient: NetworkClient
+    
+    init(networkClient: NetworkClient) {
+        self.networkClient = networkClient
+    }
+    
+    func fetchRecipes() async throws -> [Recipe]? {
         do {
-            // TODO: - Abstract network later
-            let (data, _) = try await URLSession.shared.data(from: url)
-            let recipeResponse = try JSONDecoder().decode(RecipeResponse.self, from: data)
-            return recipeResponse.recipes
+            let response = try await networkClient.sendRequest(endpoint: RecipeEndpoints.recipes, response: RecipeResponse.self)
+            return response.recipes
         } catch {
-            // TODO: - handle network failure
-            print("Failed")
-            return []
+            throw NetworkError.unknown(error)
         }
     }
 }
